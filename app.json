@@ -15,31 +15,25 @@
   ],
   "env": {
     "BOT_TYPE": {
-      "description": "The type of Bot. Options are groupme, slack, or discord.",
-      "value": "groupme"
+      "description": "The type of Bot. Options are groupme, slack, or discord."
     },
     "LEAGUE_ID": {
-      "description": "The Sleeper league id.",
-      "value": "1"
+      "description": "The Sleeper league id."
     },
     "CLOSE_NUM": {
-      "description": "How close a game score needs to be to be considered close.",
-      "value": "20"
+      "description": "How close a game score needs to be to be considered close."
     },
     "NUMBER_OF_PLAYOFF_TEAMS": {
       "description": "The number of playoff teams in the league."
     },
     "BOT_ID": {
-      "description": "The Groupme bot_id. Required if the bot type is groupme.",
-      "value": "1"
+      "description": "The Groupme bot_id. Required if the bot type is groupme."
     },
     "SLACK_WEBHOOK": {
-      "description": "The Slack Webhook. Required if the bot type is slack.",
-      "value": "1"
+      "description": "The Slack Webhook. Required if the bot type is slack."
     },
     "DISCORD_WEBHOOK": {
-      "description": "The Discord Webhook. Required if the bot type is discord.",
-      "value": "1"
+      "description": "The Discord Webhook. Required if the bot type is discord."
     }
   }
 }
